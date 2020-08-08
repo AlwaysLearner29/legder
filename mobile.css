@@ -1,0 +1,77 @@
+nav{
+    flex-direction: column;
+    padding: 0.25rem 1.25rem;
+   
+}
+.logo{
+    text-align: center;
+}
+.nav-content{
+    display: flex;
+    justify-content: space-evenly;
+    padding:0;
+    margin: 0;
+}
+nav ul li a{
+    padding: 0.6rem 1rem;
+    margin: 0rem 1rem;
+}
+.showcase p{
+    margin-left: 0.75rem;
+}
+.info-sec .info-content{
+    flex-direction:column;
+}
+.team-sec .team-pic{
+    background: none;
+}
+.team-sec{
+    flex-direction: column;
+}
+.team-sec .team-content{
+ justify-content:center;
+ text-align:center;
+} 
+#client .logo-container img{
+    height: 50px;
+    width: 50px;
+    margin: auto;
+    padding: 0.75rem 0.5rem;
+}
+#client .logo-head{
+    font-size: 20px;
+}
+#contact .contact-form{
+    margin: 10px;
+    padding: 20px; 
+    width: 100%;
+    text-align: center;
+}
+#contact .contact-form li{
+    list-style: none;
+}
+
+#contact .map{
+    display: none;
+}
+
+#contact .contact-form input{
+    box-sizing: border-box;
+    padding-right:1rem;
+
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    padding-left: 3rem;
+    
+}
+.contact-form .form-head .form-content ul li label{
+ padding: 1.2rem 1.3rem;
+ 
+}
+#contact .contact-form textarea{
+    width: 15rem;
+    padding-left: 60px;
+}
+#contact .send-btn{
+    padding:0.25rem 90px;
+}

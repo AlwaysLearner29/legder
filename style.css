@@ -1,0 +1,232 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+     font-family: 'Roboto', sans-serif;;; 
+}
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+.color-text{
+    color: rgb(25, 195, 90);
+}
+.color-back{
+    background-color: rgb(79, 194, 85);
+}
+.color-dark-bg{
+    background-color: rgb(54, 54, 54);
+}
+nav{
+    display: flex;
+    position:sticky;
+    top: 0;
+    background-color: rgba(56, 54, 54,0.94);
+    justify-content: space-between;
+    z-index:1;
+}
+.ws-text{
+    color:white;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin:20px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    padding: 0.6rem 0.2rem;
+    margin: 0 1rem;
+    color: whitesmoke;
+}
+.logo{
+    padding:15px;
+    margin-left: 20px;
+}
+nav ul li a:hover{
+    background-color: rgb(77, 190, 49);
+    border-radius: 0.4rem;
+}
+.showcase{
+    background: url(/image_resources/showcase.jpg)
+    no-repeat center center/cover;
+    height: 100vh;
+}
+.showcase .showcase-content{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height:100%;
+  padding: 0 2rem;
+  /* overlay */
+  position:relative;
+  top: 0px;
+  left: 0px;
+  background-color: rgba(0,0,0,0.4);
+}
+.showcase-content p{
+    padding: 20px;
+}
+.showcase-content a{
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 0.5rem;
+}
+.showcase-content a:hover{
+    background-color: rgb(15, 97, 47);
+}
+.showcase-content h1{
+    font-size:60px;
+}
+.info-sec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.info-content i{
+    height: 48px;
+    width: 50px;
+    text-align: center;
+    padding-top: 0.25rem;
+    background-color: rgb(25, 195, 90);
+    border-radius: 1.6rem;
+}
+.info-content{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+}
+.info-head{
+    margin: 20px;
+    font-size: larger;
+    margin: 29px;
+}
+.info-sec h3,p{
+    padding: 1rem;
+    margin-right: 1.7rem;
+}
+
+/* TEAM */
+.team-sec{
+    display: flex;
+}
+.team-pic{
+    background: url(/image_resources/people.jpg) no-repeat center center/cover;
+}
+.team-sec div{
+    flex: 1;
+}
+.team-content li{
+    list-style: none;
+    margin-left: 20px;
+    padding: 20px;
+    border-bottom: rgb(24, 21, 21) thin dotted;
+}
+.team-content p,h3{
+    margin-left:30px;
+    padding: 0.5rem;
+}
+.team-head{
+    padding-top: 20px;
+    margin-left: 15px;
+    font-size: 33px;
+}
+#client{
+    display: flex;
+    flex-direction: column;
+}
+
+/* LOGO */
+.logo-head{
+    text-align: center;
+    font-size: 25px;
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+.logo-container{
+    display: flex;
+    justify-content:center;
+    
+}
+.logo-container img{
+    height: 130px;
+    margin: 1.8rem;
+}
+
+/* FORM */
+#contact{
+    display: flex;
+}
+.contact-form{
+    flex:1;
+    padding-bottom:2rem;   
+}
+.contact-form input{
+    padding-right:25rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    padding-left: 0.5rem;
+}
+.contact-form label{
+ padding: 0 0.75rem;
+}
+.contact-form input{
+    margin-bottom:0.75rem;
+    margin-left: 1.5rem;
+}
+.contact-form textarea{
+    margin-left: 1.5rem;
+}
+.form-head h1{
+    font-size: 25px;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+.send-btn{
+    margin-top: 0.75rem;
+    padding:0.25rem 280px;
+    margin-left: 0.75rem;
+    border-style: outset;
+    border-radius: 3px;
+    border-width: thin;
+}
+.send-btn:hover{
+    background-color: rgb(10, 161, 43);
+}
+.map{
+    flex:2;
+}
+footer{
+    width: 110%;
+    text-align: center;
+}
+.contact-form input{
+    padding-right:23rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    padding-left: 0.5rem;
+    
+}
+.contact-form .form-head .form-content ul li label{
+ padding: 1.2rem 2rem;
+ 
+}
+
+.contact-form textarea{
+    width: 34.25rem;
+}
+.send-btn{
+    padding:0.25rem 275px;
+}
