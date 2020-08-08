@@ -57,7 +57,7 @@ nav ul li a:hover{
     border-radius: 0.4rem;
 }
 .showcase{
-    background: url(image_resources/showcase.jpg)
+    background: url(image_resources/showcase.JPG)
     no-repeat center center/cover;
     height: 100vh;
 }
